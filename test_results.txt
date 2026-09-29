@@ -1,0 +1,29 @@
+Testing EXISTING model (chess_cnn_best.pth) with VERIFIED crops
+======================================================================
+
+Orientation scores: Normal=-100.0, Rotated=-100.0
+tablero1.png: ERROR - 'charmap' codec can't encode character '\u2192' in position 0: character maps to <undefined>
+
+Orientation scores: Normal=-120.0, Rotated=-100.0
+tablero2.png: ERROR - 'charmap' codec can't encode character '\u2192' in position 0: character maps to <undefined>
+
+Orientation scores: Normal=-100.0, Rotated=-100.0
+tablero4.png: ERROR - 'charmap' codec can't encode character '\u2192' in position 0: character maps to <undefined>
+
+Orientation scores: Normal=-100.0, Rotated=-100.0
+tablero5.png: ERROR - 'charmap' codec can't encode character '\u2192' in position 0: character maps to <undefined>
+
+Orientation scores: Normal=-100.0, Rotated=-100.0
+tablero6.png: ERROR - 'charmap' codec can't encode character '\u2192' in position 0: character maps to <undefined>
+
+Orientation scores: Normal=-100.0, Rotated=-50.0
+diagrama01.png: ERROR - 'charmap' codec can't encode character '\u2192' in position 0: character maps to <undefined>
+
+Orientation scores: Normal=-100.0, Rotated=-50.0
+diagrama05.png: ERROR - 'charmap' codec can't encode character '\u2192' in position 0: character maps to <undefined>
+
+Orientation scores: Normal=-100.0, Rotated=-120.0
+diagrama23.png: ERROR - 'charmap' codec can't encode character '\u2192' in position 0: character maps to <undefined>
+
+======================================================================
+OVERALL RESULTS:

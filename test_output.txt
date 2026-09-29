@@ -1,0 +1,116 @@
+Traceback (most recent call last):
+  File "C:\Users\User\Downloads\reto-once\test_existing_model.py", line 115, in test_on_training_set
+    print(f"  Errors: {', '.join(mismatches[:10])} ... ({len(mismatches)} total)")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 14: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\User\Downloads\reto-once\test_existing_model.py", line 115, in test_on_training_set
+    print(f"  Errors: {', '.join(mismatches[:10])} ... ({len(mismatches)} total)")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 14: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\User\Downloads\reto-once\test_existing_model.py", line 115, in test_on_training_set
+    print(f"  Errors: {', '.join(mismatches[:10])} ... ({len(mismatches)} total)")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 14: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\User\Downloads\reto-once\test_existing_model.py", line 115, in test_on_training_set
+    print(f"  Errors: {', '.join(mismatches[:10])} ... ({len(mismatches)} total)")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 14: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\User\Downloads\reto-once\test_existing_model.py", line 115, in test_on_training_set
+    print(f"  Errors: {', '.join(mismatches[:10])} ... ({len(mismatches)} total)")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 14: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\User\Downloads\reto-once\test_existing_model.py", line 115, in test_on_training_set
+    print(f"  Errors: {', '.join(mismatches[:10])} ... ({len(mismatches)} total)")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 14: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\User\Downloads\reto-once\test_existing_model.py", line 115, in test_on_training_set
+    print(f"  Errors: {', '.join(mismatches[:10])} ... ({len(mismatches)} total)")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 14: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\Users\User\Downloads\reto-once\test_existing_model.py", line 113, in test_on_training_set
+    print(f"  Errors: {', '.join(mismatches)}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 14: character maps to <undefined>
+Testing EXISTING model (chess_cnn_best.pth) with VERIFIED crops
+======================================================================
+
+tablero1.png       (modern ): 32/64 correct ( 50.0%) 
+  Predicted: 3BB2B/8/2B2B2/2P5/8/8/8/8
+  Expected:  r1bqk2r/ppp2p2/2np1n1p/2b1p1p1/2B1P3/2NP1NB1/PPP2PPP/R2QK2R
+tablero1.png: ERROR - 'charmap' codec can't encode character '\u2192' in position 14: character maps to <undefined>
+
+tablero2.png       (modern ): 34/64 correct ( 53.1%) 
+  Predicted: 8/8/8/1B6/8/8/8/B1PBB3
+  Expected:  r1bqkb1r/pp3ppp/3p4/4p3/4PBn1/2N5/PPP2PPP/R2QKB1R
+tablero2.png: ERROR - 'charmap' codec can't encode character '\u2192' in position 14: character maps to <undefined>
+
+tablero4.png       (modern ): 51/64 correct ( 79.7%) 
+  Predicted: B7/8/8/8/8/8/8/8
+  Expected:  k7/p7/1p6/6p1/P4pPp/1P3P1P/2P5/7K
+tablero4.png: ERROR - 'charmap' codec can't encode character '\u2192' in position 14: character maps to <undefined>
+
+tablero5.png       (modern ): 42/64 correct ( 65.6%) 
+  Predicted: 1B4B1/8/1B1P4/8/8/8/B7/2B5
+  Expected:  1q4k1/3b1p2/1r1b1p1p/2pPp2N/2P1P3/2BQ3P/r2N2P1/2R3K1
+tablero5.png: ERROR - 'charmap' codec can't encode character '\u2192' in position 14: character maps to <undefined>
+
+tablero6.png       (modern ): 34/64 correct ( 53.1%) 
+  Predicted: 1B3BB1/1BB5/5B2/8/8/8/8/8
+  Expected:  1rb2rk1/1nq1bppp/3p1n2/1ppPp3/1P2P3/2P2N1P/2BN1PP1/R1BQR1K1
+tablero6.png: ERROR - 'charmap' codec can't encode character '\u2192' in position 14: character maps to <undefined>
+
+diagrama01.png     (scanned): 49/64 correct ( 76.6%) 
+  Predicted: 8/8/2B5/8/8/8/8/8
+  Expected:  r3kb1r/p2q4/2n5/8/Q5b1/2N2N2/P3K3/2R4R
+diagrama01.png: ERROR - 'charmap' codec can't encode character '\u2192' in position 14: character maps to <undefined>
+
+diagrama05.png     (scanned): 48/64 correct ( 75.0%) 
+  Predicted: 8/8/2B5/8/8/8/8/3B4
+  Expected:  r2q1rk1/4b3/p4n2/8/2b5/1B6/P7/R1BQR1K1
+diagrama05.png: ERROR - 'charmap' codec can't encode character '\u2192' in position 14: character maps to <undefined>
+
+diagrama23.png     (scanned): 55/64 correct ( 85.9%) 
+  Predicted: 8/8/8/8/8/7B/8/5B2
+  Expected:  8/p3r2k/P5q1/5Q2/8/7K/4N3/5R2
+diagrama23.png: ERROR - 'charmap' codec can't encode character '\u2192' in position 14: character maps to <undefined>
+
+======================================================================
+OVERALL RESULTS:
+  Square-level accuracy: 345/512 (67.4%)
+  Perfect diagrams: 0/8
+  tablero1.png accuracy: 32/64 (50.0%)
+
+Previous performance (misaligned crops): 69.5% square accuracy
+Current performance (verified crops): 67.4% square accuracy
+Change: -2.1%

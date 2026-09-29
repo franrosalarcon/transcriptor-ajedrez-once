@@ -1,0 +1,6 @@
+Testing k-NN (k=1) on 512 real crops with cross-validation...
+
+Cross-validation accuracy: 73.5% (+/- 17.4%)
+Individual folds: ['40.8%', '78.6%', '91.2%', '83.3%', '73.5%']
+
+BAD: Crops still have issues (73.5% < 95%).

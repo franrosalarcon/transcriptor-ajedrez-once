@@ -1,0 +1,15 @@
+VALIDACION CONTRA REFERENCIA.md
+======================================================================
+
+tablero1.png       56/64 casillas  [PARCIAL]
+tablero2.png       2/64 casillas  [PARCIAL]
+tablero4.png       31/64 casillas  [PARCIAL]
+tablero5.png       52/64 casillas  [EXACTO]
+tablero6.png       58/64 casillas  [PARCIAL]
+diagrama01.png     4/64 casillas  [PARCIAL]
+diagrama05.png     4/64 casillas  [PARCIAL]
+diagrama23.png     3/64 casillas  [PARCIAL]
+
+======================================================================
+TOTAL: 210/512 casillas correctas (41.0%)
+EXACTOS: 1/8 diagramas

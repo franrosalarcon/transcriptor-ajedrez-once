@@ -1,0 +1,1 @@
+python train_knn.py > knn_out.txt 2>&1

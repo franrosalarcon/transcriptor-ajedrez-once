@@ -1,0 +1,11 @@
+BRAILLE:
+Blancas: Re⠂ a⠆
+Negras: Re⠦
+
+AUDIO:
+Blancas: Rey en E1, Peón en A2.
+Negras: Rey en E8.
+
+ESPERADO:
+Braille: Blancas: Re⠂ a⠆   Negras: Re⠦
+Audio: Blancas: Rey en E1, Peon en A2.  Negras: Rey en E8.

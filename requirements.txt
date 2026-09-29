@@ -1,0 +1,7 @@
+streamlit
+python-chess
+pillow
+numpy
+scikit-learn
+opencv-python-headless
+gTTS

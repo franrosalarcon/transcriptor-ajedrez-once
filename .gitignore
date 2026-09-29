@@ -1,0 +1,18 @@
+# Datos pesados: no caben en GitHub y no hacen falta para ejecutar la app
+dataset/
+sprites/
+crops_corrected/
+debug_crops_tablero1/
+debug_crops_tablero1_corrected/
+*.npz
+
+# Modelos de PyTorch que ya no se usan (la app carga los .pkl)
+*.pth
+
+# Basura de depuración
+__pycache__/
+debug_*.png
+rejilla_*.png
+*.log
+app_backup.py
+app_fixed.py

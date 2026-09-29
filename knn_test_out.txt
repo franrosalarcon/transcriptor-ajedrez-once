@@ -1,0 +1,22 @@
+Loaded k-NN model
+Testing on tablero1.png...
+
+FEN: r1bqk2r/ppp2p2/2n2n1p/2b1p1p1/2B1P3/2NP1NB1/PPP2PPP/R2QK3 w - - 0 1
+
+Board:
+r . b q k . . r
+p p p . . p . .
+. . n . . n . p
+. . b . p . p .
+. . B . P . . .
+. . N P . N B .
+P P P . . P P P
+R . . Q K . . .
+Traceback (most recent call last):
+  File "C:\Users\User\Downloads\reto-once\test_knn_tablero1.py", line 53, in <module>
+    print(f'\nBraille transcription:\n{result}')
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2802' in position 37: character maps to <undefined>

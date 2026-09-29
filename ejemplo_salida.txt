@@ -1,0 +1,13 @@
+EJEMPLO DE SALIDA: tablero1.png
+======================================================================
+
+Tipo de diagrama: Tablero moderno en color (verde y crema)
+Total de piezas: 30 piezas
+
+TRANSCRIPCION BRAILLE (Documento Tecnico B8):
+Blancas: Re⠂ Dd⠂ Ta⠂ Cc⠒ Cf⠒ Ac⠲ Ag⠒ a⠆ b⠆ c⠆ d⠒ e⠲ f⠆ g⠆ h⠆
+Negras: Re⠦ Dd⠦ Ta⠦ Th⠦ Cc⠖ Cf⠖ Ac⠢ Ac⠦ a⠶ b⠶ c⠶ e⠢ f⠶ g⠢ h⠖
+
+TRANSCRIPCION AUDIO (Libro Adaptado ONCE):
+Blancas: Rey en e2, Dama en d2, Torre en a2, Alfiles en c4 y g3, Caballos en c3 y f3, Peones en a2, b2, c2, d3, e4, f2, g2 y h2.
+Negras: Rey en e8, Dama en d8, Torres en a8 y h8, Alfiles en c5 y c8, Caballos en c6 y f6, Peones en a7, b7, c7, e5, f7, g5 y h6.
