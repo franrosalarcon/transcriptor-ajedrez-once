@@ -5,3 +5,4 @@ numpy
 scikit-learn
 opencv-python-headless
 gTTS
+pyttsx3
